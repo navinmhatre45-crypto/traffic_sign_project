@@ -1,0 +1,67 @@
+=== IMPACT REPORT: CONDITIONAL GAN DATA AUGMENTATION ===
+Baseline Overall Accuracy: 97.49%
+GAN-Augmented Overall Accuracy: 97.47%
+Baseline Minority Class Recall: 95.61%
+GAN-Augmented Minority Class Recall: 95.81%
+
+Breakdown of Rare Classes:
+  Class 00 (Speed limit (20km/h)):
+    Baseline Recall: 100.00%
+    GAN-Augmented Recall: 100.00%
+    Change: +0.00%
+  Class 19 (Dangerous curve to the left):
+    Baseline Recall: 100.00%
+    GAN-Augmented Recall: 100.00%
+    Change: +0.00%
+  Class 20 (Dangerous curve to the right):
+    Baseline Recall: 100.00%
+    GAN-Augmented Recall: 100.00%
+    Change: +0.00%
+  Class 21 (Double curve):
+    Baseline Recall: 90.00%
+    GAN-Augmented Recall: 76.67%
+    Change: -13.33%
+  Class 22 (Bumpy road):
+    Baseline Recall: 95.00%
+    GAN-Augmented Recall: 98.33%
+    Change: +3.33%
+  Class 24 (Road narrows on the right):
+    Baseline Recall: 98.89%
+    GAN-Augmented Recall: 100.00%
+    Change: +1.11%
+  Class 27 (Pedestrians):
+    Baseline Recall: 100.00%
+    GAN-Augmented Recall: 100.00%
+    Change: +0.00%
+  Class 29 (Bicycles crossing):
+    Baseline Recall: 100.00%
+    GAN-Augmented Recall: 100.00%
+    Change: +0.00%
+  Class 32 (End of all speed and passing limits):
+    Baseline Recall: 100.00%
+    GAN-Augmented Recall: 100.00%
+    Change: +0.00%
+  Class 36 (Go straight or right):
+    Baseline Recall: 97.50%
+    GAN-Augmented Recall: 100.00%
+    Change: +2.50%
+  Class 37 (Go straight or left):
+    Baseline Recall: 98.33%
+    GAN-Augmented Recall: 98.33%
+    Change: +0.00%
+  Class 39 (Keep left):
+    Baseline Recall: 68.89%
+    GAN-Augmented Recall: 73.33%
+    Change: +4.44%
+  Class 40 (Roundabout mandatory):
+    Baseline Recall: 97.78%
+    GAN-Augmented Recall: 98.89%
+    Change: +1.11%
+  Class 41 (End of no passing):
+    Baseline Recall: 90.00%
+    GAN-Augmented Recall: 91.67%
+    Change: +1.67%
+  Class 42 (End of no passing by vehicles over 3.5 tons):
+    Baseline Recall: 97.78%
+    GAN-Augmented Recall: 100.00%
+    Change: +2.22%
